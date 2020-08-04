@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-chimport "./style.css";
+import "./style.css";
 import useWebAnimations from "@wellyshen/use-web-animations";
 
 const RedQueenRace = () => {
