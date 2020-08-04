@@ -1,7 +1,5 @@
-/** @format */
-
 import React from "react";
-import { RedQueenRace } from "./RedQueenRace";
+import { RedQueenRace } from './RedQueenRace';
 
 function App() {
   return (
