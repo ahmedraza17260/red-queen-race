@@ -62,4 +62,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build http://red-queen-race-raza-app.surge.sh/  --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ http://red-queen-race-raza-app.surge.sh/  --token ${{ secrets.SURGE_TOKEN }}
