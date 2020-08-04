@@ -5,8 +5,8 @@ import "./style.css";
 import useWebAnimations from "@wellyshen/use-web-animations";
 
 export const RedQueenRace = () => {
-    var playbackrateRQ = 2;
-    var playbackrateBG = 1;
+    var playbackrateRQ = 1;
+    var playbackrateBG = 0;
 
     // const animations = React.useRef(null)
     // const anime = useWebAnimations(animations)
