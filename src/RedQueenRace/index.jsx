@@ -31,7 +31,7 @@ const RedQueenRace = () => {
 
     const redQueenAlice = useWebAnimations({ keyframes: spriteFrames, timing: spriteTiming });
 
-    const adjustBGPlayback = () => {
+    const adjustBackgroundPlayback = () => {
         if (playbackrateRQ < 0.8) {
             playbackrateBG = (playbackrateRQ / 2) * -1;
         }
@@ -62,13 +62,13 @@ const RedQueenRace = () => {
                 playbackrateRQ *= 0.9;
                 redQueenAlice.getAnimation().playbackRate = playbackrateRQ;
             }
-            adjustBGPlayback();
+            adjustBackgroundPlayback();
         }, 3000);
 
         document.addEventListener('click', () => {
             playbackrateRQ *= 1.1;
             redQueenAlice.getAnimation().playbackRate = playbackrateRQ;
-            adjustBGPlayback();
+            adjustBackgroundPlayback();
         });
     });
 
